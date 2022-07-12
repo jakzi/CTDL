@@ -69,12 +69,13 @@ void giaodiendau() {
   button(5, 205, 195, 240, 6, "LOGOUT", 2, 8, 15);//Id 0
 }
 //Giao dien sau chon chuc nang
-void menuchon(int i){
+void menuchon(int i){//Doi mau nen va chu
 	giaodiendau();
 	if(i==1) button(5, 5, 195, 40, 1, "QL Lop", 2, 3, 0);//Id 1
 	if(i==2) button(5, 45, 195, 80, 2, "QL Mon Hoc", 2, 3, 0);//Id 2
 	if(i==3) button(5, 85, 195, 120, 3, "QL Cau Hoi", 2, 3, 0);//Id 3
 	if(i==4) button(5, 125, 195, 160, 4, "THI TN", 2, 3, 0);//Id 4
+	if(i==5) button(5, 165, 195, 200, 5, "LUU FILE", 2, 3, 0);//ID 5
 }
 //Dang nhap
 void giaodiendangnhap() {
@@ -106,8 +107,8 @@ void giaodiencauhoi(){
 void nhapttthi(){
   menuchon(4);
   outtextxy(205, 5, "CAU :");
-  taoo(295, 5, 895, 40, 1401, 7, 4); //o nhap user Id 1001
+  taoo(295, 5, 895, 40, 1401, 7, 4); //o nhap user Id 1401
   outtextxy(205, 45, "PHUT:");
-  taoo(295, 45, 895, 80, 1402, 7, 4); //o nhap pass Id 1002
-  button(205, 260, 520, 300, 1403, "THI", 2, 3, 4);//id 1003
+  taoo(295, 45, 895, 80, 1402, 7, 4); //o nhap pass Id 1402
+  button(205, 260, 520, 300, 1403, "THI", 2, 3, 4);//id 1403
 }
